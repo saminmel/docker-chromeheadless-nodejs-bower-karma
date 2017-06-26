@@ -12,7 +12,7 @@ RUN echo 'deb http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/so
 RUN apt-get update && apt-get install --no-install-recommends -y google-chrome-stable
 
 # nodejs, bower, karma
-ENV NODE_VERSION 5.0.0
+ENV NODE_VERSION 7.10.0
 
 # RUN apt-get update
 # RUN apt-get -qq update
